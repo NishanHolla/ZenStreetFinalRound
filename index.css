@@ -10,9 +10,8 @@ body {
     background: linear-gradient(239.13deg, #0083A2 0.11%, #006086 38.08%, #092742 85.9%);
     margin: 0;
     font-family: Arial, sans-serif; /* Example font family */
-    color: white;
-    /* padding: 38px; */
-    padding-bottom: 12px;
+    color: white;  
+    padding-bottom: 54px;
 }
 
 header {
@@ -32,7 +31,6 @@ header .logo {
 }
 
 header .logo img {
-    height: 40px;
     margin-right: 10px;
 }
 
@@ -51,11 +49,16 @@ header nav a {
     border: 0;
 }
 
+svg {
+    margin: 0;
+    padding: 0; 
+    position: relative;
+    top: 40px; 
+}
+
 
 main {
     display: flex;
-    padding: 20px;
-
     justify-content:space-evenly;
     align-items: center;
 }
