@@ -9,7 +9,7 @@
 body {
     background: linear-gradient(239.13deg, #0083A2 0.11%, #006086 38.08%, #092742 85.9%);
     margin: 0;
-    font-family: Arial, sans-serif; /* Example font family */
+    font-family: Arial, sans-serif; 
     color: white;  
     padding-bottom: 54px;
 }
@@ -106,7 +106,7 @@ main {
 
 .form-group input, .form-group textarea {
     width: 100%;
-    padding: 20px; /* Add padding inside the input field */
+    padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
