@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'Neue Regrade';
+    src: url('fonts/neue-regrade.woff2') format('woff2'),
+         url('fonts/neue-regrade.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: linear-gradient(239.13deg, #0083A2 0.11%, #006086 38.08%, #092742 85.9%);
+    margin: 0;
+    font-family: Arial, sans-serif; /* Example font family */
+    color: white;
+    /* padding: 38px; */
+    padding-bottom: 12px;
+}
+
+header {
+    color: white;
+    display: flex;
+    margin: 38px;
+    margin-bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.logo iframe{
+    border: 0;
+}
+
+
+main {
+    display: flex;
+    padding: 20px;
+
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+#box-left h1{
+    font-size: 54px;
+    font-family: 'Neue Regrade', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+.learn-how-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px, 51px, 14px, 51px;
+    width: 272px;
+    height: 66px;
+    border-radius: 80px;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+}
+
+.learn-how-btn:hover {
+    background-color: white;
+    color: #333;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    padding: 10px, 0px, 10px, 0px;
+    color: rgba(116, 116, 116, 1);
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 20px; /* Add padding inside the input field */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: black;
+}
+.form-header .beta {
+    background: rgba(5, 167, 237, 0.47);
+    color: rgba(0, 109, 170, 1);
+    padding: 5px 10px;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.form-group {
+    margin-bottom: 24px;
+    width: 420px;
+}
+
+.form-group input{
+    font-size: 18px;
+    width: 100%;
+    height: 57px;
+    padding: 14px, 24px, 14px, 24px;
+    border: 1px solid rgba(165, 165, 165, 1);
+    border-radius: 5px;
+}
+.form-group.inline {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#first-name{
+    margin-right: 16px;
+    width: 90%;
+}
+
+.form-control input{
+    font-size: 18px;
+    width: 100%;
+    height: 57px;
+    padding: 14px, 24px, 14px, 24px;
+    border: 1px solid rgba(165, 165, 165, 1);
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+#join-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.contact-form button {
+    width: 340px;
+    height: 66px;
+    border-radius: 900px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+#box-right{
+    background: white;
+    color: black;
+    padding: 30px;
+    border-radius: 20px;
+    height: 610px;
+}
+
+#box-right h1{
+    font-size: 32px;
+    font-family: 'Inter';
+    padding: 10px, 0px, 10px, 0px;
+}
+
+#wait{
+    font-weight: 500;
+    font-size: 17px;
+    color: rgba(140, 140, 140, 1);
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-header h1{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
